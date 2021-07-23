@@ -22,22 +22,22 @@ function App() {
         </section>
       </main>
       <Switch>
-        <Route path="/success-page">
+        {/* <Route path="/success-page">
           <SuccessPage />
-        </Route>
-        <Route path="/todo-list">
+        </Route> */}
+        {/* <Route path="/todo-list">
           <TodoListContainer
             title="TO-DO LIST"
           />
-        </Route>
-        <Route path="/todo-list-hook">
+        </Route> */}
+        {/* <Route path="/todo-list-hook">
           <TodoListContainerStateless
             title="TO-DO LIST with HOOK"
           />
-        </Route>
+        </Route> */}
         <Route path="/">
           <TodoListContainer
-            title="TO-DO LIST"
+            title="Homework Board"
           />
         </Route>
       </Switch>

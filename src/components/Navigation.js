@@ -4,19 +4,20 @@ import { Link } from 'react-router-dom';
 class Navigation extends Component {
   render() {
     return (
-      <nav className="nav navbar">
-        <ul className="nav ">
-          <li className="nav-item">
-            <Link className="nav-link" to="/todo-list">To-Do List</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/todo-list-hook">To-Do List with Hook</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/success-page">Finish Tutorial</Link>
-          </li>
-        </ul>
-      </nav>
+      <title>hw board</title>
+      // <nav className="nav navbar">
+      //   <ul className="nav ">
+      //     <li className="nav-item">
+      //       <Link className="nav-link" to="/todo-list">To-Do List</Link>
+      //     </li>
+      //     <li className="nav-item">
+      //       <Link className="nav-link" to="/todo-list-hook">To-Do List with Hook</Link>
+      //     </li>
+      //     <li className="nav-item">
+      //       <Link className="nav-link" to="/success-page">Finish Tutorial</Link>
+      //     </li>
+      //   </ul>
+      // </nav>
     )
   }
 }

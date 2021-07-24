@@ -48,6 +48,7 @@ class TodoAdd extends Component {
           className="btn btn-outline-secondary" 
           type="button" 
           id="task-add"
+          style={{color: 'white', backgroundColor: '#7f867b'}}
           onClick={() => {
             this.handleAdd(this.state.value)
           }}

@@ -2,7 +2,7 @@ import React from 'react';
 
 function TodoTask(props) {
   return (
-    <li>
+    <li  style={{backgroundColor: 'white'}}>
       <p>{props.task}</p>
       <div className="list-action">
         <button 
